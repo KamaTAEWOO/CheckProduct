@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/androidWork/CheckProduct/app/src/main/res/layout/activity_first_category.xml" value="0.20729166666666668" />
         <entry key="..\:/androidWork/CheckProduct/app/src/main/res/layout/activity_main.xml" value="0.20104166666666667" />
+        <entry key="..\:/androidWork/CheckProduct/app/src/main/res/layout/activity_second_category.xml" value="0.22239583333333332" />
         <entry key="..\:/androidWork/CheckProduct/app/src/main/res/layout/grid_item.xml" value="0.20729166666666668" />
       </map>
     </option>
@@ -14,5 +15,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="CheckProduct.app" />
+      </set>
+    </option>
   </component>
 </project>
