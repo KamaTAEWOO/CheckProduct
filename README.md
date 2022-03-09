@@ -8,3 +8,6 @@
 ### 2022-02-26
  - 첫 프로젝트 생성 완료 및 깃허브 연결 완료
  - New Branch
+ - Test Mode 진행중
+ - GridView 완성
+ - First Category 진행중
