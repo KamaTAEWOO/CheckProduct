@@ -12,7 +12,6 @@
  - GridView 완성
  - First Category 진행중
 
-
 ### 2022-03-09
  - First Category 완료
  - First Category 데이터 전달 완료
