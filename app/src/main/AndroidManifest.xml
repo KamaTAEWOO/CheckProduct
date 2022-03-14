@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CheckProduct">
         <activity
+            android:name=".CheckListData.CheckList"
+            android:exported="true" />
+        <activity
+            android:name=".ThirdCategoryData.ThirdCategory"
+            android:exported="true" />
+        <activity
             android:name=".SecondCategoryData.SecondCategory"
             android:exported="true" />
         <activity

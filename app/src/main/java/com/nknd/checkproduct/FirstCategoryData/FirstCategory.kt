@@ -44,10 +44,11 @@ class FirstCategory : AppCompatActivity() {
         // Grid Item Click event
         // Click event - AdapterView, View, Int, long
         gridView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-            val gridTxtItem: String = mGridTxt[+position] // or just your string
+            val gridTxtItem: String = mGridTxt[+position]
             val intent = Intent(this, SecondCategory::class.java)
             intent.putExtra("mGridTxt", gridTxtItem)
             startActivity(intent)
+            finish()
         }
     }
 }

@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
             // FirstCategory 이동
             var intent = Intent(this, FirstCategory::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
