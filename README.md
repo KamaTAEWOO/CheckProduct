@@ -21,3 +21,6 @@
  - ThirdCategory.kt, CheckList.kt 생성
  - 해당 값을 받아서 값 확인 후 해당 class로 넘기기 완료
  - 중요한 클래스 생성 완료
+
+### 2022-03-17
+ - checkList에 recyclerview를 이용하여 checkbox와 text 완료 
