@@ -5,8 +5,19 @@
 ## 앱 내용: 중고 제품을 구입 전에 리스트를 만들어서 사용자고 구매 & 판매할 때 이용하는 어플
 ## 만든 사람: Merona
 
+### 2022-06-08
+- Room 삽입, 삭제, 원하는 값 얻기 완료
+- 데이터 삽입하면 됨
+- Room -> 앱 다운 후 처음에만 Data Load 하기
+
+### 2022-04-09
+- Room 사용 완료
+- 데이터 저장은 안 함 -> 데이터 넣어두기.
+- web에서 데이터 확인 가능
+- Data Package 생성 완료
+
 ### 2022-03-17
- - checkList에 recyclerview를 이용하여 checkbox와 text 완료 
+ - checkList에 recyclerview를 이용하여 checkbox와 text 완료
 
 ### 2022-03-14
  - ThirdCategory.kt, CheckList.kt 생성
@@ -24,6 +35,9 @@
  - Test Mode 진행중
  - GridView 완성
  - First Category 진행중
+
+
+
 
 
 
