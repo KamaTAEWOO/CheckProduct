@@ -1,4 +1,4 @@
-# CheckProduct (Taewoo Branch)
+# CheckProduct (Taewoo Branch Commit 중)
 ## 시작일: 2022-02-26
 ## 종료일: 
 ## 앱 이름: Check Product
