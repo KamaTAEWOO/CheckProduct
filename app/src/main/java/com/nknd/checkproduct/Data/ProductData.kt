@@ -15,6 +15,7 @@ import androidx.room.PrimaryKey
 
 @Entity
 class ProductData  (
+    var num: Int,
     var title: String,
     var contents: String
 ){

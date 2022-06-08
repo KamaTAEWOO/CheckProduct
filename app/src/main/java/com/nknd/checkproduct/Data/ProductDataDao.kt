@@ -24,4 +24,12 @@ interface ProductDataDao {
 
     @Update
     fun update(todo: ProductData)
+
+    // 필요한 값만 들고오기.
+    @Query("SELECT contents FROM ProductData WHERE title = :title")
+    fun getTitle(title: String): String
+
+    // 전체 데이터 삭제
+    @Query("DELETE FROM ProductData")
+    fun deleteAll()
 }

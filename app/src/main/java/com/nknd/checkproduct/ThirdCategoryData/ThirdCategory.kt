@@ -9,10 +9,9 @@
 
 package com.nknd.checkproduct.ThirdCategoryData
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.nknd.checkproduct.R
-import com.nknd.checkproduct.databinding.ActivitySecondCategoryBinding
 import com.nknd.checkproduct.databinding.ActivityThirdCategoryBinding
 
 class ThirdCategory : AppCompatActivity() {
