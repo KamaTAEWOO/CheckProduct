@@ -17,7 +17,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.AdapterView
 import android.widget.GridView
-import android.widget.Toast
+import com.nknd.checkproduct.Data.DataLoad
 import com.nknd.checkproduct.R
 import com.nknd.checkproduct.SecondCategoryData.SecondCategory
 import com.nknd.checkproduct.databinding.ActivityFirstCategoryBinding
@@ -26,8 +26,10 @@ class FirstCategory : AppCompatActivity() {
     private lateinit var binding: ActivityFirstCategoryBinding
 
     lateinit var gridView: GridView
-    private var mGridTxt = arrayOf("오징어게임", "재미있어요!")
-    private var mGridImage = intArrayOf(R.mipmap.qwe,R.mipmap.asd)
+
+    // 1차 카테고리 Text 맞춰야함.
+    private var mGridImage = intArrayOf(R.mipmap.qwe,R.mipmap.asd,R.mipmap.qwe,R.mipmap.asd,R.mipmap.qwe,
+                                        R.mipmap.asd,R.mipmap.qwe,R.mipmap.asd)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,13 +40,14 @@ class FirstCategory : AppCompatActivity() {
 
         title = "KotlinApp"
         gridView = findViewById(R.id.gridview)
-        val mainAdapter = FirstCategoryAdapter(this@FirstCategory, mGridTxt, mGridImage)
+        val mainAdapter = FirstCategoryAdapter(this@FirstCategory, DataLoad.instance._disitalMathine, mGridImage)
         gridView.adapter = mainAdapter
 
         // Grid Item Click event
         // Click event - AdapterView, View, Int, long
         gridView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-            val gridTxtItem: String = mGridTxt[+position]
+            //val gridTxtItem: String = mGridTxt[position]
+            val gridTxtItem: String = DataLoad.instance._disitalMathine[position]
             val intent = Intent(this, SecondCategory::class.java)
             intent.putExtra("mGridTxt", gridTxtItem)
             startActivity(intent)

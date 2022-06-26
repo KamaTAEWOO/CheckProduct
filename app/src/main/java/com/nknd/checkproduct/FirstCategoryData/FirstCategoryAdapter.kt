@@ -19,7 +19,7 @@ import com.nknd.checkproduct.R
 
 internal class FirstCategoryAdapter(
    private val context: Context,
-   private val numbersInWords: Array<String>,
+   private val numbersInWords: ArrayList<String>,
    private val numberImage: IntArray
 ) :
 BaseAdapter() {
